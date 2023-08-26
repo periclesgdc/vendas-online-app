@@ -1,11 +1,20 @@
-import { SafeAreaView, Text, View } from "react-native";
+import { SafeAreaView, StyleSheet } from "react-native";
+import Login from "./modules/login";
 
 const App = () => {
+
   return (
     <SafeAreaView>
-      <Text>Testando</Text>
+      <Login />
     </SafeAreaView>
   );
 }
+
+const styles = StyleSheet.create({
+  input: {
+    backgroundColor: '#ddd',
+    margin: 16
+  }
+})
 
 export default App;
