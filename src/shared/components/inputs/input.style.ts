@@ -8,4 +8,3 @@ export const ContainerInput = styled.TextInput`
   color: grey;
   border-radius: 5px;
 `;
-
