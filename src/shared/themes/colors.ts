@@ -5,3 +5,7 @@ export const gray = {
 export const meutral = {
   white: "#FFFFFF",
 }
+
+export const main = {
+  primary: '#000000',
+}
