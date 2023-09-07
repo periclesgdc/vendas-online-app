@@ -8,8 +8,16 @@ const Login = () => {
   return (
     <View>
       <ContainerLogin>
-        <Input />
-        <Button title="Entrar" margin="5px" type={theme.buttons.primary} />
+        <Input
+          placeholder="Digite..."
+          title="Login"
+          errorMessage="Erro no login"
+        />
+        <Button
+          title="Entrar"
+          margin="5px"
+          type={theme.buttons.primary}
+        />
       </ContainerLogin>
     </View>
   );

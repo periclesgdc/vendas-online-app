@@ -7,5 +7,11 @@ export const meutral = {
 }
 
 export const main = {
-  primary: '#000000',
+  primary: "#000000",
+}
+
+export const alert = {
+  error: "red",
+  warning: "orange",
+  success: "green"
 }
