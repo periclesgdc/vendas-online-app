@@ -12,7 +12,7 @@ interface ButtonProps extends TouchableOpacityProps {
   loading?: boolean;
 }
 
-const Button = ({title, margin, loading, onPress, type, ...props}: ButtonProps) => {
+const Button = ({title, margin, loading, type, ...props}: ButtonProps) => {
   const renderText = (color: string) => (
     <Text type={textTypes.BUTTON_BOLD} color={color}>
       {title} {loading ? <ActivityIndicator color={theme.colors.neutral.white} /> : null}
