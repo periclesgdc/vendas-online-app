@@ -1,5 +1,6 @@
 import styled from "styled-components/native";
 import { theme } from "../../themes/theme";
+import { Icon } from "../icon/icon";
 
 interface ContainerInputProps {
   hasError?: boolean;
@@ -14,4 +15,10 @@ export const ContainerInput = styled.TextInput<ContainerInputProps>`
   border-radius: 5px;
   border-width: 1px;
   border-color: ${(props: ContainerInputProps) => props.hasError ? theme.colors.alert.error : theme.colors.gray.gray80};
+`;
+
+export const IconEye = styled(Icon)`
+  position: absolute;
+  right: 16px;
+  top: 12px;
 `;
